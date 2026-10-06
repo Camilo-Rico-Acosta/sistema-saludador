@@ -1,0 +1,30 @@
+# Retos
+
+Uno de los principales retos fue configurar correctamente Java, Git y
+JavaFX para poder ejecutar el proyecto.
+
+# Descubrimientos
+
+Aprendí a utilizar JavaFX para crear una interfaz gráfica y a utilizar
+Cursor como apoyo durante el desarrollo.
+
+# Sorpresas
+
+Me sorprendió que además de Java fuera necesario configurar correctamente
+el JDK y Maven para poder ejecutar el proyecto.
+
+# Comandos y herramientas
+
+Utilicé Java, JavaFX, Maven, Git, GitHub y Cursor.
+
+# Dificultades
+
+Al principio tuve problemas porque Java y Git no estaban configurados
+correctamente en el PATH. También tuve que configurar el JDK necesario
+para compilar el proyecto.
+
+# Conclusión
+
+El laboratorio me permitió comprender mejor el proceso de creación de
+una aplicación de escritorio y la importancia de configurar correctamente
+las herramientas antes de ejecutar el proyecto.

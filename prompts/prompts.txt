@@ -1,0 +1,28 @@
+# Prompts utilizados
+
+## Prompt 1
+
+Necesito hacer un Sistema Saludador en Java y JavaFX. Debe pedir nombre,
+edad y AM/PM. ¿Me ayudas a crear la estructura básica del proyecto?
+
+## Prompt 2
+
+Ya instalé Java y Git y reinicié Cursor. Verifica que ambos estén
+disponibles y que el proyecto sistema-saludador esté correctamente
+configurado.
+
+## Prompt 3
+
+Completa todo lo necesario para que la aplicación funcione:
+
+- Interfaz en JavaFX con nombre, edad y selección AM/PM.
+- Botón "Solicitar saludo".
+- Mostrar un saludo personalizado usando el nombre y la edad.
+- Que el saludo cambie según AM o PM.
+- Validar que los campos no estén vacíos y que la edad sea válida.
+- Mantener únicamente Java y JavaFX, sin frameworks adicionales.
+- Mantener la estructura actual del proyecto.
+- Asegúrate de que el proyecto pueda ejecutarse con el Maven Wrapper.
+
+Cuando termines, compila el proyecto y ejecútalo para comprobar que
+funciona.

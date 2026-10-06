@@ -1,0 +1,21 @@
+.root {
+    -fx-background-color: #f4f6f8;
+    -fx-font-size: 14px;
+}
+
+.titulo {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.mensaje {
+    -fx-font-size: 15px;
+}
+
+.mensaje-ok {
+    -fx-text-fill: #1f4b73;
+}
+
+.mensaje-error {
+    -fx-text-fill: #a12622;
+}
