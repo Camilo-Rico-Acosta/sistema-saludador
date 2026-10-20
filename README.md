@@ -1,35 +1,22 @@
 # Sistema Saludador
 
-Aplicación de escritorio desarrollada en Java y JavaFX como parte del laboratorio de Ingeniería de Software.
+Aplicación de escritorio en Java y JavaFX. Pide nombre, edad y momento del día (AM/PM) y genera un saludo personalizado.
 
-## Descripción
+## Requisitos
 
-El Sistema Saludador permite al usuario ingresar:
+- JDK 17 o superior (recomendado JDK 21) con `JAVA_HOME` configurado.
+- No hace falta instalar Maven: el proyecto incluye Maven Wrapper (`mvnw.cmd`).
 
-- Nombre
-- Edad
-- Momento del día: AM o PM
+## Compilar y ejecutar (Windows)
 
-Después de ingresar los datos, la aplicación genera un saludo personalizado utilizando el nombre y la edad del usuario, teniendo en cuenta si es AM o PM.
+Abre una terminal (CMD o PowerShell) **en la carpeta raíz del proyecto**, donde está el `pom.xml`, y ejecuta:
 
-## Tecnologías utilizadas
+```
+.\mvnw.cmd clean javafx:run
+```
 
-- Java 21
-- JavaFX 21.0.5
-- Maven
-- Maven Wrapper
+Este comando descarga las dependencias la primera vez, compila el proyecto y abre la aplicación automáticamente.
 
-## Estructura del proyecto
+## Solución de problemas
 
-sistema-saludador/
-├── .mvn/
-├── ejecutable/
-│   └── SistemaSaludador/
-├── prompts/
-├── src/
-├── .gitignore
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-├── README.md
-└── Reflexion.md
+- `JAVA_HOME not found`: configura la variable de entorno `JAVA_HOME` apuntando a tu JDK.
